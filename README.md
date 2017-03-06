@@ -5,7 +5,6 @@ Fork from https://github.com/yulshub/yaws
 # Requirements
 * python3
 * python3 bs module
-* python3 boto module
 * python3 argparse module
 * python3 boto module
 * python3 boto3 module
@@ -20,6 +19,10 @@ Fork from https://github.com/yulshub/yaws
 * url_domain
 * login_domain
 
+# ToDO
+* Use only boto3.
+
 # Run
 ```bash
 python pymaws.py
+
