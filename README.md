@@ -1,5 +1,5 @@
 # pymaws
-Active Directory - ADFS - MFA Login - AWS Shell console interactive
+Active Directory - ADFS - MFA Login - AWS python interactive
 Fork from https://github.com/yulshub/yaws
 
 # Requirements
