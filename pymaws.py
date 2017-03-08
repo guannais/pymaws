@@ -627,7 +627,7 @@ def createEC2InstancesMENU():
 		if STATUS == 'pending':
 			COLORED_STATUS = Fore.YELLOW+STATUS+Style.RESET_ALL
 		else:
-			if (STATUS == 'stopped') or (STATUS == 'stopping'):
+			if (STATUS == 'stopped') or (STATUS == 'stopping') or (STATUS == 'terminated'):
 				COLORED_STATUS = Fore.RED+STATUS+Style.RESET_ALL
 			else:
 				if STATUS == 'running':
