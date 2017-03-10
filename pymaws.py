@@ -96,7 +96,8 @@ def check_file_expiration_dates():
 				PROFILE_EXPIRED = 1
 			i += 1
 	if PROFILE_EXPIRED == 1:
-		os.remove(CONFIG_FILENAME)
+		if os.path.isfile(CONFIG_FILENAME):
+			os.remove(CONFIG_FILENAME)
 
 def username_password_login():
 	global session
